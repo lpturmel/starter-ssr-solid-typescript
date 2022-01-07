@@ -1,16 +1,19 @@
-import Counter from "../components/Counter";
 import { Component } from "solid-js";
+import Logo from "../components/Logo";
 
-const Home: Component = (props) => {
+const Home: Component = () => {
 	return (
-		<main>
-			<h1>Hello world!</h1>
-			<Counter />
+		<main class="w-full h-full vstack space-y-4 items-center justify-center">
+			<Logo />
+			<div class="text-5xl hstack space-x-2">
+				<p class="text-blue-500 font-semibold">Solid </p>
+				<p>SSR Starter!</p>
+			</div>
 			<p>
 				Visit{" "}
 				<a
 					href="https://solidjs.com"
-					class="text-red-500"
+					class="text-blue-500"
 					target="_blank"
 				>
 					solidjs.com
