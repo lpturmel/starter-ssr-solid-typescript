@@ -1,20 +1,23 @@
 {
-  "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
-  },
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "solid-app-router": "^0.1.14",
-    "solid-js": "^1.2.6",
-    "solid-meta": "^0.27.2",
-    "solid-start": "next",
-    "solid-start-vercel": "next",
-    "vite": "^2.7.1"
-  },
-  "engines": {
-    "node": ">=14"
-  }
+	"scripts": {
+		"dev": "solid-start dev",
+		"build": "solid-start build",
+		"start": "solid-start start"
+	},
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"autoprefixer": "^10.4.1",
+		"postcss": "^8.4.5",
+		"solid-app-router": "^0.1.14",
+		"solid-js": "^1.2.6",
+		"solid-meta": "^0.27.2",
+		"solid-start": "next",
+		"solid-start-vercel": "next",
+		"tailwindcss": "^3.0.11",
+		"vite": "^2.7.1"
+	},
+	"engines": {
+		"node": ">=14"
+	}
 }
